@@ -12,10 +12,6 @@ pipeline {
                 ])
             }
         }
-
-
-
-
         // Add more stages for building, deployment, etc. as needed.
     }
 
