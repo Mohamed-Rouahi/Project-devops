@@ -12,6 +12,8 @@ pipeline {
                 ])
             }
         }
+         stage('Email Notification'){
+             mail bcc: '', body: 'testing email notfication', cc: '', from: '', replyTo: '', subject: 'Jenkins', to: 'mohamed.rouahi@esprit.tn'
         // Add more stages for building, deployment, etc. as needed.
     }
 
